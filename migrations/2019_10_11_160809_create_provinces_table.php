@@ -13,7 +13,7 @@ class CreateProvincesTable extends Migration
      */
     public function up()
     {
-        Schema::create('sys_provinces', function (Blueprint $table) {
+        Schema::create('sys_positions', function (Blueprint $table) {
             $table->increments('id');
             $table->string('area_name')->comment('地区名称')->index();
             $table->integer('area_code')->comment('地区编码');

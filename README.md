@@ -1,27 +1,42 @@
-<h1 align="center"> province-search </h1>
+<h1 align="center"> 省市区搜索扩展包 </h1>
 
-<p align="center"> nothing.</p>
+<p align="center"> 基于laravel的省市区搜索扩展包，最新的省市区数据库，可以方便快速的进行省市区相关查询。</p>
+
+## 框架要求
+Laravel >= 5.1
 
 
-## Installing
+## 安装
 
 ```shell
-$ composer require xing/province-search -vvv
+composer require xing/province-search -vvv
 ```
+## 配置
 
-## Usage
+1.在 config/app.php 注册 ServiceProvider 和 Facade (Laravel 5.5 + 无需手动注册)
+
+```shell
+'providers' => [
+    // ...
+    Xing\ProvinceSearch\ServiceProvider::class,
+],
+'aliases' => [
+    // ...
+    'ProvinceSearch' => Xing\ProvinceSearch\Facade::class,
+],
+```
+发布数据库文件
+
+```shell
+php artisan vendor:publish --provider="Xing\ProvinceSearch\ServiceProvider"
+
+php artisan migrate
+```
+## 使用
 
 TODO
 
-## Contributing
 
-You can contribute in one of three ways:
-
-1. File bug reports using the [issue tracker](https://github.com/xing/province-search/issues).
-2. Answer questions or fix bugs on the [issue tracker](https://github.com/xing/province-search/issues).
-3. Contribute new features or update the wiki.
-
-_The code contribution process is not very formal. You just need to make sure that you follow the PSR-0, PSR-1, and PSR-2 coding guidelines. Any new code contributions must be accompanied by unit tests where applicable._
 
 ## License
 

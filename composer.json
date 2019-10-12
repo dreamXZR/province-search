@@ -1,6 +1,6 @@
 {
     "name": "xing\/province-search",
-    "description": "nothing",
+    "description": "基于laravel的省市区搜索扩展包",
     "license": "MIT",
     "authors": [
         {
@@ -12,6 +12,16 @@
     "autoload": {
         "psr-4": {
             "Xing\\ProvinceSearch\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xing\\ProvinceSearch\\ServiceProvider"
+            ],
+            "aliases": {
+                "ProvinceSearch": "Xing\\ProvinceSearch\\Facade"
+            }
         }
     }
 }
