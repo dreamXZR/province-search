@@ -1,6 +1,6 @@
 <?php
 
-namespace Xing\ProvinceSearch;
+namespace Dreamxzr\ProvinceSearch;
 
 
 class Facade extends \Illuminate\Support\Facades\Facade

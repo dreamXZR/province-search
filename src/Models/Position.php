@@ -1,6 +1,6 @@
 <?php
 
-namespace Xing\ProvinceSearch\Models;
+namespace Dreamxzr\ProvinceSearch\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

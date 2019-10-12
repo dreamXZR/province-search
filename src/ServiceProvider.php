@@ -1,6 +1,6 @@
 <?php
 
-namespace Xing\ProvinceSearch;
+namespace Dreamxzr\ProvinceSearch;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 

@@ -9,7 +9,7 @@ Laravel >= 5.1
 ## 安装
 
 ```shell
-composer require xing/province-search -vvv
+composer require dreamxzr/province-search -vvv
 ```
 ## 配置
 
@@ -18,17 +18,17 @@ composer require xing/province-search -vvv
 ```shell
 'providers' => [
     // ...
-    Xing\ProvinceSearch\ServiceProvider::class,
+    Dreamxzr\ProvinceSearch\ServiceProvider::class,
 ],
 'aliases' => [
     // ...
-    'ProvinceSearch' => Xing\ProvinceSearch\Facade::class,
+    'ProvinceSearch' => Dreamxzr\ProvinceSearch\Facade::class,
 ],
 ```
 发布数据库文件
 
 ```shell
-php artisan vendor:publish --provider="Xing\ProvinceSearch\ServiceProvider"
+php artisan vendor:publish --provider="Dreamxzr\ProvinceSearch\ServiceProvider"
 
 php artisan migrate
 ```

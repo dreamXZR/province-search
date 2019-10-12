@@ -1,10 +1,10 @@
 <?php
 
-namespace Xing\ProvinceSearch;
+namespace Dreamxzr\ProvinceSearch;
 
 
-use Xing\ProvinceSearch\Exceptions\InvalidArgumentException;
-use Xing\ProvinceSearch\Models\Position;
+use Dreamxzr\ProvinceSearch\Exceptions\InvalidArgumentException;
+use Dreamxzr\ProvinceSearch\Models\Position;
 
 class ProvinceSearch
 {

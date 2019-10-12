@@ -1,26 +1,26 @@
 {
-    "name": "xing\/province-search",
+    "name": "dreamxzr\/province-search",
     "description": "基于laravel的省市区搜索扩展包",
     "license": "MIT",
     "authors": [
         {
-            "name": "xing",
+            "name": "dreamxzr",
             "email": "xzr2873917821@163.com"
         }
     ],
     "require": {},
     "autoload": {
         "psr-4": {
-            "Xing\\ProvinceSearch\\": "src"
+            "Dreamxzr\\ProvinceSearch\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Xing\\ProvinceSearch\\ServiceProvider"
+                "Dreamxzr\\ProvinceSearch\\ServiceProvider"
             ],
             "aliases": {
-                "ProvinceSearch": "Xing\\ProvinceSearch\\Facade"
+                "ProvinceSearch": "Dreamxzr\\ProvinceSearch\\Facade"
             }
         }
     }

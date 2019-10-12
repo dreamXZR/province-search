@@ -1,6 +1,6 @@
 <?php
 
-namespace Xing\ProvinceSearch\Exceptions;
+namespace Dreamxzr\ProvinceSearch\Exceptions;
 
 
 class InvalidArgumentException extends Exception
