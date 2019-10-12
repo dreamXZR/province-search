@@ -1,0 +1,17 @@
+{
+    "name": "xing\/province-search",
+    "description": "nothing",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xing",
+            "email": "xzr2873917821@163.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Xing\\ProvinceSearch\\": "src"
+        }
+    }
+}
